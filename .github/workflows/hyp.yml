@@ -32,8 +32,8 @@ jobs:
           export ARCH SUBARCH
           export CROSS_COMPILE=$DIR/GCC/bin/aarch64-linux-android-
           export CROSS_COMPILE_ARM32=$DIR/GCC32/bin/arm-linux-androideabi-
-          export KBUILD_BUILD_USER=RooGhz720
-          export KBUILD_BUILD_HOST=MyLabs
+          export KBUILD_BUILD_USER=ℤℍ𝔸ℕ𝕥𝕖𝕔𝕙™
+          export KBUILD_BUILD_HOST=gatotkaca
           PATH=$DIR/CLANG_DIR/bin:$DIR/GCC32/bin:$DIR/GCC/bin:${PATH}
           KERNEL_IMG=$DIR/out/arch/$ARCH/boot/Image.gz-dtb
           KERNEL_DTBO=$DIR/out/arch/$ARCH/boot/dtbo.img
